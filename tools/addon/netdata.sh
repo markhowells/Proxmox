@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://www.netdata.cloud/ | Github: https://github.com/netdata/netdata
 
 function header_info {

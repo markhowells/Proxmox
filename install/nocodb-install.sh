@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://www.nocodb.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"

@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: michelroegl-brunner
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://asterisk.org
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"

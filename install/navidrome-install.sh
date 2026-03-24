@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://github.com/navidrome/navidrome
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -24,7 +24,7 @@ msg_ok "Started Navidrome"
 
 read -p "${TAB3}Do you want to install filebrowser addon? (y/n) " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/asylumexp/Proxmox/main/tools/addon/filebrowser.sh)"
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/markhowells/Proxmox/main/tools/addon/filebrowser.sh)"
 fi
 
 motd_ssh

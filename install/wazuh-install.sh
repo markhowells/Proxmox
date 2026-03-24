@@ -2,7 +2,7 @@
 
 # Copyright (c) 2024 community-scripts ORG
 # Author: Omar Minaya
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://wazuh.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"

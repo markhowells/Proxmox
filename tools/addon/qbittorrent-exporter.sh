@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: CrazyWolf13
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 # Source: https://github.com/martabal/qbittorrent-exporter
 
 if ! command -v curl &>/dev/null; then
@@ -176,7 +176,7 @@ EOF
   cat <<'UPDATEEOF' >/usr/local/bin/update_qbittorrent-exporter
 #!/usr/bin/env bash
 # qbittorrent-exporter Update Script
-type=update bash -c "$(curl -fsSL https://raw.githubusercontent.com/asylumexp/Proxmox/main/tools/addon/qbittorrent-exporter.sh)"
+type=update bash -c "$(curl -fsSL https://raw.githubusercontent.com/markhowells/Proxmox/main/tools/addon/qbittorrent-exporter.sh)"
 UPDATEEOF
   chmod +x /usr/local/bin/update_qbittorrent-exporter
   msg_ok "Created update script (/usr/local/bin/update_qbittorrent-exporter)"

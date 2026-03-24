@@ -2,10 +2,10 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: BvdBerg01 | Co-Author: remz1337
-# License: MIT | https://github.com/asylumexp/Proxmox/raw/main/LICENSE
+# License: MIT | https://github.com/markhowells/Proxmox/raw/main/LICENSE
 
-source <(curl -fsSL https://raw.githubusercontent.com/asylumexp/Proxmox/refs/heads/main/misc/core.func)
-source <(curl -fsSL https://raw.githubusercontent.com/asylumexp/Proxmox/main/misc/api.func) 2>/dev/null || true
+source <(curl -fsSL https://raw.githubusercontent.com/markhowells/Proxmox/refs/heads/main/misc/core.func)
+source <(curl -fsSL https://raw.githubusercontent.com/markhowells/Proxmox/main/misc/api.func) 2>/dev/null || true
 declare -f init_tool_telemetry &>/dev/null && init_tool_telemetry "update-apps" "pve"
 
 # =============================================================================
@@ -348,7 +348,7 @@ for container in $CHOICE; do
   fi
 
   #2) Extract service build/update resource requirements from config/installation file
-  script=$(curl -fsSL https://raw.githubusercontent.com/asylumexp/Proxmox/main/ct/${service}.sh)
+  script=$(curl -fsSL https://raw.githubusercontent.com/markhowells/Proxmox/main/ct/${service}.sh)
 
   #2.1) Check if the script downloaded successfully
   if [ $? -ne 0 ]; then
